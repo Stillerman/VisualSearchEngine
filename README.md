@@ -11,9 +11,11 @@
 
 # Results
 
-I calculated a total-score for each location by taking the top 10 matches for each query image and consider their indivuidual scores (lower individual score means better match). `total_score = sum of 1 / score * C` where C is either 1 if its a correct match or -1 if it is not.
+I calculated a total score for each location by taking the top 10 matches for each query image,
+and consider their error scores (lower individual error score means better match). `total_score = sum of 1 / error_score * C` where C is either 1 if its a correct match or -1 if it is not.
+This total score calculator rewards caorrectness and punishes incorrectness proportionally to how confident it is on its selection. If it is very confident and incorrect it is punished a lot, and if it is only a little confident and is correct, it is only rewarded a little.
 
-| name      | total-score | Accuracy (out of 10) |
+| name      | total score | Accuracy (out of 10) |
 | --------- | ----------- | -------------------- |
 | garage    | 34.5        | 10                   |
 | rocks     | 28.5        | 10                   |
