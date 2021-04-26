@@ -1,0 +1,42 @@
+{
+    "alley": {
+        "score": 19.40531224434945,
+        "correct_num": 9
+    },
+    "garage": {
+        "score": 34.52169651787831,
+        "correct_num": 10
+    },
+    "grundle": {
+        "score": 2.793099777495528,
+        "correct_num": 2
+    },
+    "rocks": {
+        "score": 28.45201518680021,
+        "correct_num": 10
+    },
+    "rslofts": {
+        "score": 6.816607326957161,
+        "correct_num": 6
+    },
+    "southwick": {
+        "score": -5.562809832955063,
+        "correct_num": 4
+    },
+    "stairs": {
+        "score": 12.623209564501837,
+        "correct_num": 9
+    },
+    "tower": {
+        "score": 10.782404143501338,
+        "correct_num": 7
+    },
+    "tunnel": {
+        "score": 3.6620793215190277,
+        "correct_num": 7
+    },
+    "turf": {
+        "score": -6.760230068198887,
+        "correct_num": 3
+    }
+}
